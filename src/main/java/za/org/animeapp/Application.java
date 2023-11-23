@@ -11,7 +11,7 @@ public class Application {
             SpringApplication.run(Application.class, args);
         }
         catch (Exception e) {
-            System.out.println("An error has occurred: " + "\n" + e);
+            System.out.println("\n\nAn error has occurred: " + "\n" + e);
         }
         finally {
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
